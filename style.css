@@ -1,1 +1,36 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    background-color: antiquewhite;
+}
+
+.our_adventages {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbf7ee;
+    display: flex;
+}
+
+.our_adventages > div {
+    background-color: #ffffff;
+    border: 1px solid #d7d7d7;
+    margin: 2%;
+    padding: 1% 2%;
+}
+
+.our_adventages h3 {
+    color: #0e0e0e;
+}
+
+.our_adventages h2 {
+    color: #0e0e0e;
+}
+
+.our_adventages p {
+    color: #ababab;
+}
+
+.our_adventages strong {
+    color: #0e0e0e;
+}
