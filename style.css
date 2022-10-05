@@ -7,6 +7,7 @@
 
 body {
     background-color: antiquewhite;
+    margin: 0 auto;
 }
 
 .parent {
@@ -80,7 +81,13 @@ button {
         width: 90px;
     }
 }
-
+@media (max-width: 767px) {
+    /* Pour centrer le contenu */
+    body{
+        max-width: 500px;
+    }
+    /* */
+}
 /* ************************************************ */
 @media only screen and (min-width: 1024px) {
 
@@ -106,4 +113,11 @@ button {
         width: 105px;
         font-size: large;
     }
+
+
+    /* Pour centrer le contenu */
+    body{
+        max-width: 1140px;
+    }
+    /* */
 }
