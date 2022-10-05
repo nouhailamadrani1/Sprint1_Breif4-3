@@ -1,1 +1,103 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.parent ol {
+    display: none;
+}
+
+#logo {
+    color: rgb(32, 32, 107);
+    font-size: medium;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: small;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ol li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+button {
+    background: rgb(32, 32, 107);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: 0 0 5 7px solid black;
+    text-align: center;
+
+}
+
+/* ************************************************ */
+@media only screen and (min-width: 467px) {
+
+    .parent ol {
+        display: flex;
+    }
+    ul li a {
+        padding-left: 15px;
+    }
+    button {
+        width: 90px;
+
+        /* ************************************************ */
+        @media only screen and (min-width: 1024px) {
+
+            .parent ol {
+                display: flex;
+            }
+
+            ol li a {
+                color: black;
+                text-decoration: none;
+                padding-left: 20px;
+                font-size: large;
+            }
+
+            ul li a {
+                color: black;
+                text-decoration: none;
+                padding-left: 20px;
+                font-size: large;
+            }
+
+            button {
+                width: 105px;
+                font-size: large;
+            }
+        }
