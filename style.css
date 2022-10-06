@@ -1,15 +1,59 @@
-
 * {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
+
+
+
 
 body {
     background-color: antiquewhite;
     margin: 0 auto;
 }
 
+
+/* ------------------------------ Mehdi -------------------------------- */
+
+.our_adventages {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.our_adventages > div {
+    background-color: #ffffff;
+    border: 1px solid #d7d7d7;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.our_adventages h2 {
+    color: #0e0e0e;
+    margin: 5px auto;
+}
+
+.our_adventages p {
+    color: #ababab;
+    margin: 10px auto;
+}
+
+.our_adventages strong {
+    color: #0e0e0e;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* ************************************************ */
+@media only screen and (min-width: 467px) {
+}
+@media (max-width: 767px) {
+=======
 
 .bannerTitle{
     font-size: 25px;
@@ -153,6 +197,7 @@ bottom:hover{
    .right img{
         width: 500px;
    }
+
     /* Pour centrer le contenu */
     body{
         max-width: 500px;
@@ -160,6 +205,8 @@ bottom:hover{
     /* */
 }
 /* ************************************************ */
+
+
 @media (min-width: 1024px) {
     /*  redouan   */
     .banner{
@@ -210,10 +257,12 @@ bottom:hover{
 
     }
    
+
     /* Pour centrer le contenu */
     body{
         max-width: 1140px;
     }
-    
+
+
 }
 
