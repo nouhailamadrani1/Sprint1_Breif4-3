@@ -1,4 +1,4 @@
-/* ****************************nouhaila*********************************** */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +10,13 @@ body {
     margin: 0 auto;
 }
 
+
+.bannerTitle{
+    font-size: 25px;
+    text-align: center;
+    color: #13366D;
+ }
+=======
 .parent {
     display: flex;
     justify-content: space-around;
@@ -18,17 +25,18 @@ body {
     
 }
 
-.parent ol {
-    display: none;
-}
+ .left p{
+    text-align: center;
+    color: #A3A3A3;
+    margin-top: 15px;
+ }
 
-#logo {
-    color: rgb(32, 32, 107);
-    font-size: medium;
-}
-
-ul {
+ form{
     display: flex;
+
+    justify-content: center;
+    margin-top: 15px;
+=======
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
@@ -36,12 +44,45 @@ ul {
    
 }
 
-ul li a {
-    color: black;
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: small;
+
 }
+
+.left input{
+    width: 230px;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.left button{
+    background-color: #0B47A7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 11px;
+    box-shadow: 0 4px black;
+    margin-left: 5px;
+
+}
+.checkmark{
+    display: flex;
+    justify-content: center;
+    margin:15px;
+}
+.checkmark img{
+    width: 12px;
+    height: 12px;
+    margin-left:15px;
+}
+.checkmark span{
+    color: #A3A3A3;
+    font-size: 10px;
+    margin-left:5px;
+}
+.right img{
+    width: 100%;
+}
+=======
 
 ol {
     display: flex;
@@ -79,26 +120,39 @@ bottom:hover{
 
 
 /* ************************************************ */
-@media only screen and (min-width: 467px) {
+@media (min-width: 467px) {
 
+
+=======
     .parent ol {
         display: flex;
         
     }
 
-    ul li a {
-        padding-left: 15px;
-    }
 
-    button {
-        width: 90px;
+    /*********redouane**********/
+    .right{
+        display: flex;
+        justify-content: center;
     }
+   .right img{
+        width: 350px;
+=======
     .parent{
         display: flex;
         justify-content: space-between;
     }
+
 }
 @media (max-width: 767px) {
+    /*         redouane        */
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+   .right img{
+        width: 500px;
+   }
     /* Pour centrer le contenu */
     body{
         max-width: 500px;
@@ -106,36 +160,60 @@ bottom:hover{
     /* */
 }
 /* ************************************************ */
-@media only screen and (min-width: 1024px) {
-
-    .parent ol {
+@media (min-width: 1024px) {
+    /*  redouan   */
+    .banner{
         display: flex;
+        justify-content: space-between;
     }
+    .right{
+        width: 50%;
 
-    ol li a {
-        color: black;
-        text-decoration: none;
-        padding-left: 20px;
-        font-size: large;
     }
-
-    ul li a {
-        color: black;
-        text-decoration: none;
-        padding-left: 20px;
-        font-size: large;
+    .left .bannerTitle{
+        font-size: 40px;
+        margin-top: 90px;
+        text-align: left;
     }
-
-    button {
-        width: 105px;
-        font-size: large;
+    .left p{
+        text-align: left;
+        letter-spacing: 1.5px;
     }
+    form{
+        margin-top: 20px;
+        display:flex;
+        justify-content:flex-start
+    }
+    .left input{
+        width: 390px;
+    }
+    .left button{
+        width: 90px;
+    }
+    .checkmark{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+    .checkmark img{
+        width: 12px;
+        height: 12px;
+        margin-left:0;
+    }
+    .checkmark span{
+        color: #A3A3A3;
+        font-size: 15px;
+        margin-left:5;
+    }
+    img.creditIcon{
+        margin-left: 80px;
 
-
+    }
+   
     /* Pour centrer le contenu */
     body{
         max-width: 1140px;
     }
     
 }
-/* ****************************nouhaila*********************************** */
+
