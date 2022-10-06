@@ -1,4 +1,4 @@
-
+/* ****************************nouhaila*********************************** */
 * {
     padding: 0;
     margin: 0;
@@ -13,8 +13,9 @@ body {
 .parent {
     display: flex;
     justify-content: space-around;
-    text-align: center;
     margin-top: 10px;
+    height: 60px;
+    
 }
 
 .parent ol {
@@ -29,8 +30,10 @@ body {
 ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
     margin-top: 10px;
+   
 }
 
 ul li a {
@@ -45,13 +48,15 @@ ol {
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 ol li a {
     color: black;
     text-decoration: none;
-    padding-left: 10px;
+    
 
 }
 
@@ -60,22 +65,25 @@ button {
     color: white;
     width: 80px;
     height: 30px;
-    border: 0 0 5 7px solid black;
     text-align: center;
     box-shadow: 2px 3px gray;
-
-
+    border-radius: 10px 5px;
+    margin: 0;
 }
-button:hover{
+
+bottom:hover{
     background-color:white ;
     color: rgb(32, 32, 107);
+   
 }
+
 
 /* ************************************************ */
 @media only screen and (min-width: 467px) {
 
     .parent ol {
         display: flex;
+        
     }
 
     ul li a {
@@ -84,6 +92,10 @@ button:hover{
 
     button {
         width: 90px;
+    }
+    .parent{
+        display: flex;
+        justify-content: space-between;
     }
 }
 @media (max-width: 767px) {
@@ -124,5 +136,6 @@ button:hover{
     body{
         max-width: 1140px;
     }
-    /* */
+    
 }
+/* ****************************nouhaila*********************************** */
