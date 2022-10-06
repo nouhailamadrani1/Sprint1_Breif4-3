@@ -10,11 +10,20 @@ body {
     margin: 0 auto;
 }
 
+
 .bannerTitle{
     font-size: 25px;
     text-align: center;
     color: #13366D;
  }
+=======
+.parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 60px;
+    
+}
 
  .left p{
     text-align: center;
@@ -24,10 +33,20 @@ body {
 
  form{
     display: flex;
+
     justify-content: center;
     margin-top: 15px;
+=======
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+   
+}
+
 
 }
+
 .left input{
     width: 230px;
     border: 1px solid #A3A3A3;
@@ -63,8 +82,52 @@ body {
 .right img{
     width: 100%;
 }
+=======
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ol li a {
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+button {
+    background: rgb(32, 32, 107);
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 2px 3px gray;
+    border-radius: 10px 5px;
+    margin: 0;
+}
+
+bottom:hover{
+    background-color:white ;
+    color: rgb(32, 32, 107);
+   
+}
+
+
 /* ************************************************ */
 @media (min-width: 467px) {
+
+
+=======
+    .parent ol {
+        display: flex;
+        
+    }
 
 
     /*********redouane**********/
@@ -74,6 +137,12 @@ body {
     }
    .right img{
         width: 350px;
+=======
+    .parent{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 @media (max-width: 767px) {
     /*         redouane        */
@@ -145,5 +214,6 @@ body {
     body{
         max-width: 1140px;
     }
-    /* */
+    
 }
+
