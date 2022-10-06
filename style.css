@@ -62,8 +62,13 @@ button {
     height: 30px;
     border: 0 0 5 7px solid black;
     text-align: center;
+    box-shadow: 2px 3px gray;
 
 
+}
+button:hover{
+    background-color:white ;
+    color: rgb(32, 32, 107);
 }
 
 /* ************************************************ */
